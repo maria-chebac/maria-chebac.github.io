@@ -709,7 +709,7 @@ input, select, textarea {
 		@media screen and (max-width: 184px) {
 
 			.image.main {
-				margin: 2rem 0;
+				margin: 10rem 0;
 			}
 
 		}
