@@ -697,14 +697,14 @@ input, select, textarea {
 		.image.main {
 			display: block;
 			margin: 4.5rem 0;
-			width: 50%;
+			width: 100%;
 		}
 
 			.image.main img {
 				width: 50%;
 			}
 
-		@media screen and (max-width: 368px) {
+		@media screen and (max-width: 184px) {
 
 			.image.main {
 				margin: 2rem 0;
@@ -712,7 +712,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 240px) {
+		@media screen and (max-width: 120px) {
 
 			.image.main {
 				margin: 2.5rem 0;
