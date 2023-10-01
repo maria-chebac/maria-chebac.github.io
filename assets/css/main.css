@@ -37,9 +37,19 @@ ol, ul {
 	list-style: none;
 }
 #work {
-    max-width: 1200px; /* Adjust the maximum width to your desired value */
-    margin: 0 auto; /* Center the panel horizontally */
+    /* Your existing styles for #work */
+    max-width: 1200px; /* Adjust the maximum width as needed */
+    margin-left: auto;
+    margin-right: auto;
 }
+
+#work .column {
+    width: 50%; /* Adjust the width as needed */
+    box-sizing: border-box; /* Include padding and borders in the width calculation */
+    float: left; /* Float the columns to create a two-column layout */
+    padding: 0 20px; /* Add some spacing between columns */
+}
+
 .column {
     width: 50%; /* Add this line to make each column 50% wide */
     float: left; /* Add this line to make the columns float next to each other */
