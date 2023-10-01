@@ -36,6 +36,10 @@ body {
 ol, ul {
 	list-style: none;
 }
+#work {
+    max-width: 800px; /* Adjust the maximum width to your desired value */
+    margin: 0 auto; /* Center the panel horizontally */
+}
 .column {
     width: 50%; /* Add this line to make each column 50% wide */
     float: left; /* Add this line to make the columns float next to each other */
