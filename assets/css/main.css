@@ -37,10 +37,20 @@ ol, ul {
 	list-style: none;
 }
 .column {
-    width: 50%;
-    float: left;
-    box-sizing: border-box;
+    width: 50%; /* Add this line to make each column 50% wide */
+    float: left; /* Add this line to make the columns float next to each other */
+    box-sizing: border-box; /* Add this line to include padding and border in the column's width */
+    padding: 0 1rem; /* Add padding to create some spacing between columns */
 }
+.column h4 {
+    font-size: 1rem; /* Adjust the font size for the heading within each column */
+}
+
+.column p {
+    font-size: 0.9rem; /* Adjust the font size for paragraphs within each column */
+    line-height: 1.4; /* Adjust the line height for better readability */
+}
+
 
 blockquote, q {
 	quotes: none;
