@@ -37,7 +37,7 @@ ol, ul {
 	list-style: none;
 }
 #work {
-    max-width: 800px; /* Adjust the maximum width to your desired value */
+    max-width: 1200px; /* Adjust the maximum width to your desired value */
     margin: 0 auto; /* Center the panel horizontally */
 }
 .column {
